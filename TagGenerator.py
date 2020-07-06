@@ -14,7 +14,7 @@ class TagGenerator:
         :return: returns numpy array for that image
         """
         try:
-            image_loaded = image.load_img(img_path, target_size=(300, 300))
+            image_loaded = image.load_img(img_path, target_size=(50, 50))
         except Exception:
             raise FileNotFoundError
 
